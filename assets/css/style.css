@@ -1,0 +1,132 @@
+/* Navbar */
+nav {
+  background-color: transparent;
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.2rem;
+  transition: 0.5s all;
+
+}
+
+.navbar-brand {
+  transition: 0.5s all;
+}
+.nav-link {
+  color: #4e555b;
+  transition: 0.5s all;
+}
+
+/* Intro Section */
+#intro {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.18),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("../img/car_bg.jpg");
+
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 7rem 0;
+  box-shadow: 10px 10px 10px #888888;
+}
+
+.msg {
+
+}
+
+.intro-text h1 {
+  font-family: "Courgette", cursive;
+  font-size: 4rem;
+  color: rgb(252, 156, 31);
+  text-shadow: 3px 3px 4px #2e2929;
+  text-align: center;
+}
+
+.form-col {
+  padding: 12px;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.8)
+  );
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 0.3rem;
+  color: aliceblue;
+}
+
+#other-driver {
+  margin: 1rem 0;
+}
+.lsection-text {
+  width: 400px;
+  margin: 0 auto;
+  font-family: "Lora", cursive;
+  font-size: 1.5rem;
+  color: rgb(248, 179, 89);
+  text-shadow: 3px 3px 4px #2e2929;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.about-logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+form button {
+  margin: 1.5rem 0;
+  background-color: rgb(248, 179, 89) !important;
+  width: 100% !important;
+  font-size: 1.2rem !important;
+}
+
+/*  Outro Section */
+#outro {
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+.outro-text {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: "lora", cursive;
+  line-height: 2;
+  background-color: rgba(0, 0, 0, 0.18);
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px #888888;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 767px) {
+  .intro-text h1 {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+  .lsection-text {
+    display: none;
+  }
+
+  .about-logo img {
+    width: 25%;
+    margin-bottom: 5px;
+  }
+
+  #outro {
+    min-height: 70vh;
+  }
+
+  .outro-text {
+    font-size: 1rem;
+  }
+}
